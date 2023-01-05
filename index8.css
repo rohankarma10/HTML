@@ -1,0 +1,78 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.student
+{
+    padding: 100px 0;
+    background: rgb(148, 142, 142);
+    min-height: 500px;
+}
+.student .container
+{
+    /* background:grey; */
+    width:1170px;
+    margin: 0 auto;
+    /* min-height: 500px; */
+}
+.student .student-title h3{
+    color: blueviolet;
+    text-align: center;
+    font-size: 20px;
+}
+.student .student-title h2{
+    color: whitesmoke;
+    font-size: 48px;
+    text-align: center;
+}
+.student-list{
+    display: flex;
+    margin-top: 40px;
+}
+.student-detail{
+    display: inline-block;
+    width: 20%;
+    background: whitesmoke;
+    border-radius: 15px;
+    padding:10px;
+    overflow: hidden;
+    margin: 0px 10px;
+}
+
+.student-detail img{
+    width: 100%;
+}
+.student-detail h4{
+    text-align: center;
+    font-size: 24px;
+}
+.student-detail span{
+    display: block;
+    color:black;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.student-detail:hover img{
+    transform: scale(1.2);
+    
+}
+.student-image{
+    overflow: hidden;
+    border: black solid 3px;
+}
+.student-image img{
+    width: 100%;
+    /* border-radius: 15px; */
+    border: purple solid 3px;
+    transition: all linear 0.3s;
+}
+.student-image:hover{
+    background: red;
+    color: black;
+    border-color: blue;
+    border-radius: 0;
+    transition: all linear 0.5s;
+    box-shadow: 10px 10px 10px 10px goldenrod;
+}
